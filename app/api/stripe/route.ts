@@ -5,7 +5,6 @@ import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 
 const settingsUrl = absoluteUrl("/settings");
-export const dynamic = "force-dynamic";
 
 export async function GET() {
   try {
